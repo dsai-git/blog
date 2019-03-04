@@ -6,7 +6,7 @@ Powered by [Sculpin](http://sculpin.io).
 # Installation 
 
 1. Install composer https://getcomposer.org/
-2. Run "composer install"
+2. Run "composer install" in blog folder
 3. Put contents of assets folder found here: https://github.com/dsai-git/website/tree/master/assets into output_dev/assets folder to see proper styling while you code.
 
 # Development
