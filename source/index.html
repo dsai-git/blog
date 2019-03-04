@@ -1,0 +1,33 @@
+---
+layout: default
+title: Home
+generator: pagination
+pagination:
+    max_per_page: 3
+use:
+    - posts
+---
+{% for post in page.pagination.items %}
+    <article class="pb-100">
+        <header>
+            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+            <small class="article-header-subtitle">Posted on {{ page.date|date('Y-m-d') }} by {{ page.author }}</small>
+        </header>
+        <div>
+            {{ post.blocks.content|raw }}
+        </div>
+        {% if post.meta.tags %}
+            <p class="tags">
+            {% for tag in post.meta.tags %}
+            <a class="btn btn-sm btn-secondary" role="button" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
+            {% endfor %}
+            </p>
+        {% endif %}
+    </article>
+{% endfor %}
+{% if page.pagination.previous_page or page.pagination.next_page %}
+    <nav>
+        {% if page.pagination.previous_page %}<a class="btn btn-primary" href="{{ site.url }}{{ page.pagination.previous_page.url }}" role="button">Newer Posts</a>{% endif %}
+        {% if page.pagination.next_page %}<a class="btn btn-primary pull-right" href="{{ site.url }}{{ page.pagination.next_page.url }}" role="button">Older Posts</a>{% endif %}
+    </nav>
+{% endif %}

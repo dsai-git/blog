@@ -1,0 +1,9 @@
+# The contents of this file are parsed and made available as
+# via `site.*`. So for example, {{ site.title }} can be used
+# in a template to get the contents of the `title` key.
+title: DSAI | Data Science and AI Association of Australia
+subtitle: Curated Articles Created by the Members of Our Community
+
+# Insert your disqus shortname
+#disqus:
+#    shortname:
