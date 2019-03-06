@@ -18,14 +18,16 @@ Symbolic AI was the dominant form of AI until 1980s when statistical methods too
 
 
 **Why it failed to deliver on its promise ?**
-Symbolic AI went out of fashion for two main reasons:
 
-1. Hard coding a chain of rules for sufficiently complex tasks can be overwhelming and requires domain expertise.  
+The approach was overtaken by statistical methods for basically two reasons.
+
+1. Hard coding a chain of rules for sufficiently complex tasks can be overwhelming and requires domain expertise.  Imagine defining set of rules to recognise dogs in images, well they are furry (but not always), two eyes , four legs, 
 2. Rule based reasoning systems are not robust against noisy data.
 
 
 **Finally, its resurgence or why do we need it again ?**
-Statistical machine learning and its modern avatar deep learning (including deep reinforcement learning) has had a profound impact on our society. Almost autonomous cars, super human performance in GO and near perfect speech recognition is the result of deep learning and specialized hardware. However, these systems are also notoriously difficult to interpret. Imagine applying for loan
+
+Statistical machine learning and its modern avatar deep learning (including deep reinforcement learning) has had a profound impact on our society. Almost autonomous cars, super human performance in GO and near perfect speech recognition is the result of deep learning and specialised hardware. However, these systems are also notoriously difficult to interpret. Imagine applying for a loan, the deep learning model that the bank might be using to assess your credit worthiness would probably take in dozens if not hundreds of data points about your employment, marital status, education and many more. 
 
 
 
