@@ -27,8 +27,8 @@ The approach was overtaken by statistical methods for basically two reasons.
 
 **Finally, its resurgence or why do we need it again ?**
 
-Statistical machine learning and its modern avatar deep learning (including deep reinforcement learning) has had a profound impact on our society. Almost autonomous cars, super human performance in GO and near perfect speech recognition is the result of deep learning and specialised hardware. However, these systems are also notoriously difficult to interpret. Imagine applying for a loan, the deep learning model that the bank might be using to assess your credit worthiness would probably take in dozens if not hundreds of data points about your employment, marital status, education and many more. In case your loan application is rejected you 
-
+Statistical machine learning and its modern avatar deep learning (including deep reinforcement learning) has had a profound impact on our society. Autonomous cars, super human performance in the game of GO and near perfect speech recognition is the result of deep learning and specialised hardware. However, these systems are also notoriously difficult to interpret. Imagine applying for a loan, the deep neural network that the bank might be using to assess your credit worthiness would probably take in dozens if not hundreds of data points about your employment, marital status, education and many more. In case your loan application is rejected you may want to know 
+the reason. With deep nets its very difficult to pin down the exact reason because the learned model is basically a high dimensional matrix of weights that transforms input variables into a Yes or a No decision. 
 
 
 **To learn more** 
