@@ -14,7 +14,7 @@ As humans, we represent the world around us through high level concepts. For exa
 
 **A bit about its history** 
 
-Symbolic AI was the dominant form of AI until the 1980s when statistical methods took over. The term artificial intelligence was coined at the seminal conference in 1956 at Dartmouth, organized by John McCarthy. The pioneers of the field John McCarthy and Marvin Minsky believed a rule-based system will ultimately lead to human level intelligence (Artificial General Intelligence) and beyond. Symbolic AI is also often referred as 'Good Old Fashioned AI' because of this historical context. There is an ongoing project called 'Cyc' is-, one of the longest running.It aims to codify all of the 'common sense knowledge' a human possesses. The hypothesis is that an artificial system should eventually be able to reason like a human once this system has access to all common sense knowledge.
+Symbolic AI was the dominant form of AI until the 1980s when statistical methods took over. The term artificial intelligence was coined at the seminal conference in 1956 at Dartmouth, organized by John McCarthy. The pioneers of the field John McCarthy and Marvin Minsky believed a rule-based system will ultimately lead to human level intelligence (Artificial General Intelligence) and beyond. Symbolic AI is also often referred as 'Good Old Fashioned AI' because of this historical context. There is an ongoing project called 'Cyc' is-, one of the longest running. It aims to codify all of the 'common sense knowledge' a human possesses. The hypothesis is that an artificial system should eventually be able to reason like a human once this system has access to all common sense knowledge.
 
 **Why it failed to deliver on its promise ?**
 
