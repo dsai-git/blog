@@ -31,5 +31,15 @@ Statistical machine learning and its modern avatar deep learning (including deep
 
 Symbolic AI is set of powerful tools to build intelligent systems that humans can understand and reason about. The tedious nature of building these systems eventually resulted in statistical methods becoming dominant for AI, however its making a comeback. Shortcomings of deep learning align well with strengths of Symbolic systems, hence its poised to take the field of AI to the next level.
 
+**To learn more**
+
+[Symbolic reasoning](https://skymind.ai/wiki/symbolic-reasoning)
+
+[A nice video introduction](https://www.youtube.com/watch?v=iiMCOIGWcok)
+
+[What was Good Old Fashioned AI and why did it fail](https://www.reddit.com/r/artificial/comments/ziw60/what_was_gofai_and_why_did_it_fail/c6531lf/)
+
+[Towards Deep Symbolic Reinforcement Learning](https://arxiv.org/pdf/1609.05518.pdf)
+
 
 
