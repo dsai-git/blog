@@ -26,7 +26,9 @@ The approach was overtaken by statistical methods for basically two reasons.
 **Finally, its resurgence or why do we need it again ?**
 
 Statistical machine learning and its modern avatar deep learning (including deep reinforcement learning) has had a profound impact on our society. Autonomous cars, super human performance in the game of GO and near perfect speech recognition is the result of deep learning and specialized hardware. However, these systems are notorious for being data intensive. 
-When DeepMind achieved super human results in the Atari game of  Pong and Breakout using deep reinforcement learning it had to play millions of games with itself, while humans can understand the game mechanics and become decent players with just few examples. The deep network has no concept of a ball, pedal or that the ball needs to be struck with the pedal. The system learns everything from scratch (just pixels). 
+
+When DeepMind achieved super human results in the Atari game of  Pong and Breakout using deep reinforcement learning it had to play millions of games with itself, while humans can understand the game mechanics and become decent players with just few examples. The deep network has no concept of a ball, pedal or that the ball needs to be struck with the pedal. The system learns everything from scratch (just pixels).
+
 This is where a hybrid system (Symbolic AI + Deep learning) could potentially be revolutionary as they complement each other quite well. If the system can learn to represent high level concepts like ball, pedal and their relationships as step 1 that would speed up learning to play the game quite significantly. Higher level concepts and relationships also makes it re-usable and easy to transfer knowledge.
 
 **Summary**
