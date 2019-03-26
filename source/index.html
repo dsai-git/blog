@@ -8,10 +8,12 @@ use:
     - posts
 ---
 {% for post in page.pagination.items %}
-    <article class="pb-100">
+    <article class="">
         <header>
             <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
-            <small class="article-header-subtitle">Posted on {{ page.date|date('Y-m-d') }} by {{ page.author }}</small>
+            <div class="mb-3" style="color: #999">
+                <small class="article-header-subtitle">Posted on {{ post.date|date('Y-m-d') }} by {{ post.author }}</small>
+            </div>
         </header>
         <div>
             {{ post.blocks.content|raw }}
