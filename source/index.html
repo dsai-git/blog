@@ -21,7 +21,7 @@ use:
         {% if post.meta.tags %}
             <p class="tags">
             {% for tag in post.meta.tags %}
-            <a class="btn btn-sm btn-secondary" role="button" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
+            <a class="btn btn-sm btn-secondary" role="button" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}/">{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
             {% endfor %}
             </p>
         {% endif %}
@@ -29,7 +29,7 @@ use:
 {% endfor %}
 {% if page.pagination.previous_page or page.pagination.next_page %}
     <nav>
-        {% if page.pagination.previous_page %}<a class="btn btn-primary" href="{{ site.url }}{{ page.pagination.previous_page.url }}" role="button">Newer Posts</a>{% endif %}
-        {% if page.pagination.next_page %}<a class="btn btn-primary pull-right" href="{{ site.url }}{{ page.pagination.next_page.url }}" role="button">Older Posts</a>{% endif %}
+        {% if page.pagination.previous_page %}<a class="btn btn-primary" href="{{ site.url }}{{ page.pagination.previous_page.url }}/" role="button">Newer Posts</a>{% endif %}
+        {% if page.pagination.next_page %}<a class="btn btn-primary pull-right" href="{{ site.url }}{{ page.pagination.next_page.url }}/" role="button">Older Posts</a>{% endif %}
     </nav>
 {% endif %}
