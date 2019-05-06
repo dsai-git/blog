@@ -10,7 +10,7 @@ use:
 <div class="pb-250">
 {% for category,posts in data.posts_categories %}
 <article>
-    <h3><a href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a></h3>
+    <h3><a href="{{ site.url }}/categories/{{ category|url_encode(true) }}">{{ category }}</a></h3>
 </article>
 {% endfor %}
 </div>

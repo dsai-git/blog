@@ -16,12 +16,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
-        <link href="/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-        <link href="/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="{{ site.url }}/assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+        <link href="{{ site.url }}/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <!-- Argon CSS -->
-        <link type="text/css" href="/assets/css/argon.css?v=1.0.1" rel="stylesheet">
-        <link type="text/css" href="/assets/css/dsai.css?v=1.0.0" rel="stylesheet">
-        <link rel="stylesheet" href="{{ site.url }}/components/highlightjs/styles/github.css" />
+        <link type="text/css" href="{{ site.url }}/assets/css/argon.css?v=1.0.1" rel="stylesheet">
+        <link type="text/css" href="{{ site.url }}/assets/css/dsai.css?v=1.0.0" rel="stylesheet">
+        <link type="text/css" href="{{ site.url }}/assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ site.url }}/assets/components/highlightjs/styles/github.css" />
         <link rel="alternate" type="application/atom+xml" href="{{ site.url }}/atom.xml" title="{{ site.title }} activity feed" />
         {% endblock %}
         {% block head_scripts %}
@@ -32,7 +33,7 @@
             <nav id="navbar-main" class="navbar navbar-main navbar-dark bg-default navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand mr-lg-5" href="{{ site.url }}/">
-                        <img src="/assets/img/brand/data_science_artificial_intelligence.png"> | BLOG
+                        <img src="{{ site.url }}/assets/img/data_science_artificial_intelligence.png"> | BLOG
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -42,7 +43,7 @@
                             <div class="row">
                                 <div class="col-6 collapse-brand">
                                 <a href="index.html">
-                                    <img src="/assets/img/brand/logo.png">
+                                    <img src="{{ site.url }}/assets/img/logo.png">
                                 </a>
                                 </div>
                                 <div class="col-6 collapse-close">
@@ -62,27 +63,27 @@
                               </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/blog/" data-toggle="tooltip" title="" data-original-title="DSAi Blog">
+                                <a class="nav-link" href="https://dsai.org.au/blog/" data-toggle="tooltip" title="" data-original-title="DSAi Blog">
                                 Blog
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/events/" data-toggle="tooltip" title="" data-original-title="DSAi Events">
+                                <a class="nav-link" href="https://dsai.org.au/events/" data-toggle="tooltip" title="" data-original-title="DSAi Events">
                                 Events
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/courses/" data-toggle="tooltip" title="" data-original-title="DSAi Events">
+                                <a class="nav-link" href="https://dsai.org.au/courses/" data-toggle="tooltip" title="" data-original-title="DSAi Events">
                                 Courses
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/register-interest/" data-toggle="tooltip" title="" data-original-title="Register Interest in DSAi Events and Opportunities">
+                                <a class="nav-link" href="https://dsai.org.au/register-interest/" data-toggle="tooltip" title="" data-original-title="Register Interest in DSAi Events and Opportunities">
                                 Register Interest
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/team/" data-toggle="tooltip" title="" data-original-title="DSAi Team">
+                                <a class="nav-link" href="https://dsai.org.au/team/" data-toggle="tooltip" title="" data-original-title="DSAi Team">
                                 Team
                                 </a>
                             </li>
@@ -163,12 +164,12 @@
 
         {% block scripts %}
         <!-- Core -->
-        <script src="/assets/vendor/jquery/jquery.min.js"></script>
-        <script src="/assets/vendor/popper/popper.min.js"></script>
-        <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
-        <script src="/assets/vendor/headroom/headroom.min.js"></script>
+        <script src="{{ site.url }}/assets/vendor/jquery/jquery.min.js"></script>
+        <script src="{{ site.url }}/assets/vendor/popper/popper.min.js"></script>
+        <script src="{{ site.url }}/assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <script src="{{ site.url }}/assets/vendor/headroom/headroom.min.js"></script>
         <!-- Argon JS -->
-        <script src="/assets/js/argon.js?v=1.0.1"></script>
+        <script src="{{ site.url }}/assets/js/argon.js?v=1.0.1"></script>
 
         {% endblock %}
 
@@ -183,7 +184,7 @@
             gtag('config', 'UA-134852151-1');
         </script>
         {% endif %}
-        <script src="{{ site.url }}/components/highlightjs/highlight.pack.js"></script>
+        <script src="{{ site.url }}/assets/components/highlightjs/highlight.pack.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
         {% block scripts_after %}

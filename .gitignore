@@ -6,6 +6,6 @@
 /app/config/sculpin_site_*.yml
 /app/logs/*
 /output_*/
-/source/components/
+/source/assets/components/
 s3.conf
 /vendor/

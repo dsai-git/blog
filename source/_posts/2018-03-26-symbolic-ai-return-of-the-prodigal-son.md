@@ -8,6 +8,8 @@ tags:
 overview: A very elementary overview of Symbolic AI
 ---
 
+![Robot looking at a dog in the snow. It can't decide whether he sees a wolf or a dog.](/blog/images/Symbolic-AI.png)
+
 **What is Symbolic AI ?** 
 
 As humans, we represent the world around us through high level concepts. For example,  words like 'Trees', 'Flowers', 'Skyscrapers' are symbols that stand for something or someone.  The essence of symbolic AI is reasoning through relationships among high level concepts, such as “All men are mortal; Caius is a man; therefore Caius is mortal – associating mortality with all men. However, it is quite labour  intensive, as a human has to encode these high level concepts and their relationship into rules. These rules are encoded as if then statements.
@@ -44,6 +46,9 @@ Symbolic AI is set of powerful tools to build intelligent systems that humans ca
 [What was Good Old Fashioned AI and why did it fail](https://www.reddit.com/r/artificial/comments/ziw60/what_was_gofai_and_why_did_it_fail/c6531lf/)
 
 [Towards Deep Symbolic Reinforcement Learning](https://arxiv.org/pdf/1609.05518.pdf)
+
+[Artwork by offoff.studio](https://offoff.studio/)
+
 
 
 

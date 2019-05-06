@@ -10,7 +10,7 @@ use:
 {% for post in page.pagination.items %}
     <article class="">
         <header>
-            <h2><a href="{{ site.url }}/blog{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
             <div class="mb-3" style="color: #999">
                 <small class="article-header-subtitle">Posted on {{ post.date|date('Y-m-d') }} by {{ post.author }}</small>
             </div>
@@ -21,7 +21,7 @@ use:
         {% if post.meta.tags %}
             <p class="tags">
             {% for tag in post.meta.tags %}
-            <a class="btn btn-sm btn-secondary" role="button" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}/">{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
+            <a class="btn btn-sm btn-secondary" role="button" href="{{ site.url }}/tags/{{ tag|url_encode(true) }}/">{{ tag }}</a>{% if not loop.last %}&nbsp;{% endif %}
             {% endfor %}
             </p>
         {% endif %}

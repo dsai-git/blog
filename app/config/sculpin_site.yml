@@ -3,6 +3,7 @@
 # in a template to get the contents of the `title` key.
 title: DSAI | Data Science and AI Association of Australia
 subtitle: Curated Articles Created by the Members of Our Community
+url: /blog
 
 # Insert your disqus shortname
 #disqus:

@@ -9,7 +9,7 @@ use:
 <div>
 <hr>
 {% for tag,posts in data.posts_tags %}
-<a class="btn btn-sm btn-secondary" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+<a class="btn btn-sm btn-secondary" href="{{ site.url }}/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
 <hr>
 {% endfor %}
 </div>
