@@ -11,5 +11,5 @@ If you don’t find this funny, well, its time to brush up your linear algebra a
 6. How do you raise a billion dollar for your coffee business in silicon valley ? You rename the business to Deep.Coffee.AI 
 7. What is Ian Goodfellow's favourite catch phrase ? Yes we GAN. 
 8. 1 Million robots marched towards the cliff, 999999 fell off the cliff and were destroyed but 1 didn't, why ? Because it takes a robot that many examples to learn something. 
-9. Whats the difference between a Recurrent neural net and Donald Trump ? An Recurrent neural net is capable of generating perfect English sentences. 
+9. Whats the difference between a LSTM and Donald Trump ? A LSTM is capable of generating perfect English sentences. 
 10. What did the cost function say to the waiter after looking at the dinner bill ? Hey can you minimize that. 
