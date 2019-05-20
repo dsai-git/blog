@@ -1,4 +1,18 @@
+---
+title: Machine Learning Jokes
+author: Imam
+use: [posts]
+tags:
+    - ai
+    - ml
+    - humour
+    - jokes
+overview: Some hokes from the machine learning community
+---
+
 **Machine Learning Jokes** 
+
+<img src="/blog/images/jokes.jpg" alt="Robot performing a stand up comedy routine.">
 
 If you don’t find this funny, well, its time to brush up your linear algebra and multivariable calculus.
 
