@@ -7,8 +7,6 @@ tags:
 overview: There’s quite a lot of talk about how wonderful Transformers are and how they solve a lot of problems. Fair enough, they are pretty good. That said, all the explanations I’ve seen so far include math and neural network diagrams (nothing wrong with that!). What I’m going to attempt to do is talk about how they work in a more conceptual way, because it’s much easier to understand the math and diagrams if you have some idea of why those equations even exist.
 ---
 
-# Transformers: more than meets the eye? (Part 1: The Past)
-
 ```
 Original article and Stephen's blog can be found here: https://breakitdownto.earth/2019/05/10/Transformers_part1.html
 
