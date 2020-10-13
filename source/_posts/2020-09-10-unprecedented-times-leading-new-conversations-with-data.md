@@ -1,6 +1,6 @@
 ---
 title: Unprecedented times – leading new conversations with data
-author: Mark Manfort
+author: Mark Monfort
 use: [posts]
 tags:
     - ai
